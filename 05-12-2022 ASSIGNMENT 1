@@ -1,0 +1,13 @@
+n=int(input("Enter a number="))
+i=1
+factor=0
+print("Prime numbers")
+while(i<=n):
+     if(n%i==0):
+     print(i)
+     factor=factor+1
+     i=i+1
+print("Prime numbers count=",factor)
+
+     
+
