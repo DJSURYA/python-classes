@@ -5,8 +5,16 @@ while(n!=0):
     s=s+r*r
     n=n//10
 print(s)
-if(s==1 and s==7):
+if(s==1 or s==7):
     print("happy number")
 else:
     print("not a happy number")
+num=int(input("Enter a number:"))
+a,b=0,1
+print("Fibonacci series:",a,b,end=" ")
+while True:
+    a,b=b,a+b
+    if(b>num):
+        break
+    print(b,end="  ")
     
