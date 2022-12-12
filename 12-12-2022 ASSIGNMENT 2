@@ -1,0 +1,4 @@
+l=list(map(int,input("Enter a List Elements=")));
+print(l)
+print(max(l))
+print(min(l))
