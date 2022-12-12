@@ -1,0 +1,5 @@
+l=list(map(int,input("Enter a List Elements=")));
+print(l)
+print(l[0])
+print(l[2])
+print(l[4])
