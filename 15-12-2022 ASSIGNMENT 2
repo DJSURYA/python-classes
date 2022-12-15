@@ -1,0 +1,11 @@
+n=int(input("enter the number of elements"))
+l=list(map(int,input("enter list elements").split()));
+ap=[]
+ts=[]
+for i in range(0,n):
+    if(l[i]%2==0):
+        ap.append(l[i])
+    if(l[i]%2!=0):
+        ts.append(l[i])
+print(ap)
+print(ts)
