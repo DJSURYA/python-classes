@@ -1,0 +1,6 @@
+s=input("Enter a string:")
+n=0
+for i in range(len(s)):
+    if s[i].isalpha()==1:
+        n+=1
+print("number of numbers in the given string:",n)
