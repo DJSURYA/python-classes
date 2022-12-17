@@ -3,4 +3,4 @@ n=0
 for i in range(len(s)):
     if s[i].isdigit()==1:
         n+=1
-print("number of number in the given string:",n)
+print("number of alphabets in the given string:",n)
