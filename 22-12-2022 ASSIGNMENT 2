@@ -1,0 +1,10 @@
+def leapyear(n):
+    if (n%4==0 and n%100!=0):
+        return ("Leap Year")
+    elif (n%400==0):
+        return ("Leap Year")
+    else:
+        return ("Not a leap year")
+print("Enter a Year")
+n=int(input())
+print(leapyear(n))
